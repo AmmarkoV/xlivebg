@@ -1,7 +1,7 @@
 /*
  * This file is part of the RGBDAcquisition renderer (https://github.com/AmmarkoV/RGBDAcquisition/tree/master/opengl_acquisition_shared_library/opengl_depth_and_color_renderer )
  * Stripped down to its bare basics to hopefully be adapted to xlivebg ( https://github.com/jtsiomb/xlivebg )
- * Copyright (c) 2020 Ammar Qammaz.
+ * Copyright (c) 2020 Ammar Qammaz a.k.a. AmmarkoV.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,8 +20,10 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+#if USE_GLEW
 // Include GLEW
 #include <GL/glew.h>
+#endif // USE_GLEW
 
 //GLU
 #include <GL/gl.h>
