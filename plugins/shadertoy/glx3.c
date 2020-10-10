@@ -16,6 +16,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
  //Compile using :  gcc -o gl3 glx3.c -lGL -lX11
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
